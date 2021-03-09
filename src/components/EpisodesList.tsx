@@ -1,5 +1,5 @@
 import React from 'react'
-import {IEpisode} from './utils';
+import {IEpisode} from '../utils';
 
 const EpisodesList = (props: any): JSX.Element[] => {
     const {episodes, toggleFavourite, favourites, store} = props;

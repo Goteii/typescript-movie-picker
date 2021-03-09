@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react'
-import { IEpisodeProps} from './utils';
-import {Store} from './store/Store';
-import {fetchDataAction, toggleFavourite} from './actions/Actions';
+import { IEpisodeProps} from '../utils';
+import {Store} from '../store/Store';
+import {fetchDataAction, toggleFavourite} from '../actions/Actions';
 
-const EpisodeList = React.lazy<any>(() => import('./EpisodesList')); 
+const EpisodeList = React.lazy<any>(() => import('../components/EpisodesList')); 
 
 
 export default function HomePage() {
